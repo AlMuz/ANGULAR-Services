@@ -1,0 +1,15 @@
+<div>
+  <h2>APP counter: {{ appCounterService.counter }}</h2>
+
+  <button (click)="appCounterService.increase()">+</button>
+  <button (click)="appCounterService.decrease()">-</button>
+  <hr />
+</div>
+
+<div>
+  <h2>Local counter: {{ localCounterService.counter }}</h2>
+
+  <button (click)="localCounterService.increase()">+</button>
+  <button (click)="localCounterService.decrease()">-</button>
+  <hr />
+</div>
